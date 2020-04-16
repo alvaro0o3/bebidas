@@ -25,7 +25,7 @@ const RecetasProvider = (props) => {
 
             getRecetas();
         }
-    }, [search])
+    }, [search, consultar, ingrediente, categoria])
 
     return (
         <RecetasContext.Provider
